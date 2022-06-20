@@ -1,5 +1,6 @@
 @import url('header.css');
 @import url('section.css');
+@import url('footer.css');
 body{
     margin: 0;
     font-family: 'Open Sans' sans-serif;
@@ -19,4 +20,16 @@ img{
     margin-left: auto;
     padding-left: 1em;
     padding-right: 1em;
+}
+.laptop-slider{
+    background-color: #242a2c;
+    padding: 125px 0 100px;
+    width: 100%;
+    overflow: auto; /*Se p js estiver desabilitado, eu quero que apareça essa barra de rolagem SOMENTE nas figuras, e não em toda pagina!!!*/
+}
+.slideshow{
+    white-space: nowrap; /*Para não ter quebra de linha*/
+}
+.slideshow figure{
+    display: inline-block;
 }

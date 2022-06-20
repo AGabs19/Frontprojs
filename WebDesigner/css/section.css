@@ -135,3 +135,22 @@
     display: block;
     width: 100%;
 }
+.quote-container{
+    background-color: var(--azulclaro);
+    padding: 50px 0;
+    border-bottom: 12px solid #58b9a1;
+}
+.quote-slideshow h2{
+    color: var(--branco);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+}
+.quote-slideshow figcaption{
+    color: var(--branco);
+    font-size: 18px;
+    text-align: center;
+}
+.no-js .quote-slideshow figure + figure{
+    margin-top: 5em; /*Só vale se o JS estiver desabilitado*/
+}
