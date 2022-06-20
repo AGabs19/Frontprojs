@@ -1,0 +1,49 @@
+.header{
+    background: var(--branco);
+    width: 100%
+
+}
+.logo-text{
+    text-transform: uppercase;
+    background-color: var(--azulclaro);
+    margin: 0;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+
+    font-weight: bold;
+    color: var(--branco);
+
+    float:left;
+
+}
+.header__nav{
+    clear: left;
+}
+.header__nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header__nav li{
+    list-style-type: none;
+    background: #242c2c;
+    text-align: center;
+    border-bottom: 1px dotted rgba(255,255,255, 0.2);
+
+}
+.header__nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #586165;
+    font-size: 14px;
+    font-weight: 600;
+    display: block; /*Para o hover, add display, padding e transition, e retirei o paddig do li*/
+    padding: 25px 0;
+    transition: 0.5s ease;
+}
+.header__nav a:hover{
+    color: var(--azulclaro);
+}
+.header__btnMenu{
+
+}

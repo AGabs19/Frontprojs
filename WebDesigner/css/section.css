@@ -1,0 +1,24 @@
+.hero{
+    height: 80vh;
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url('../images/01.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__title{
+    background-color:var(--azulclaro);
+    color: var(--branco);
+    font-size: 28px;
+    font-weight: 600;
+    padding: 30px 20px;
+}
+.hero__text{
+    background-color: #242a2c;
+    margin: 5px 30px 35px;
+    color: var(--branco);
+    padding: 20px;
+    font-size: 16px;
+}

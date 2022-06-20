@@ -1,0 +1,13 @@
+@import url('header.css');
+@import url('section.css');
+body{
+    margin: 0;
+    font-family: 'Open Sans' sans-serif;
+}
+:root{
+    --branco: #fff;
+    --azulclaro: #63c6ae;
+}
+img{
+     max-width: 100%; /*Largura maxima*/
+}
