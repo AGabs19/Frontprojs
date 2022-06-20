@@ -3,11 +3,20 @@
 body{
     margin: 0;
     font-family: 'Open Sans' sans-serif;
+    line-height: 1.4;
 }
 :root{
     --branco: #fff;
     --azulclaro: #63c6ae;
+    --cinzaclaro: #929da5;
+    --medium-cinza: #737c85;
 }
 img{
      max-width: 100%; /*Largura maxima*/
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1em;
+    padding-right: 1em;
 }
