@@ -15,7 +15,7 @@
     color: var(--branco);
 
     float:left;
-
+    text-align: right;
 }
 .header__nav{
     clear: left;
